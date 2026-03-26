@@ -17,7 +17,7 @@ VISIBILITY_THRESHOLD = 0.55
 AUDIO_COOLDOWN_SECONDS = 7
 
 REPORT_DIR = "reports"
+#please create an .env and put your openai api keys there
 
-# Set this in PyCharm Run Configuration if you have access:
 # OPENAI_MODEL = gpt-5.4
 OPENAI_MODEL = os.getenv("OPENAI_MODEL", "gpt-4.1-mini")
